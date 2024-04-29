@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #2d2e39;
+  color: lightgoldenrodyellow;
+  font-family: "Bebas Neue", sans-serif;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.main {
+  background-color: #111119;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid lightgoldenrodyellow;
+}
+
+input {
+  background-color: #111119;
+  width: 280px;
+
+  border: none;
+  border-radius: 20px;
+
+  font-size: 24px;
+  text-align: end;
+
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-bottom: 30px;
+  outline: none;
+
+  color: lightgoldenrodyellow;
+}
+
+.button-section {
+  width: 300px;
+}
+.button-section div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 10px;
+}
+
+button {
+  border: 1px solid lightblue;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 100px;
+  flex: 1;
+  font-size: 24px;
+  background-color: #2d2e39;
+  color: lightgoldenrodyellow;
+}
+
+button:hover {
+  background-color: #111119;
+}
