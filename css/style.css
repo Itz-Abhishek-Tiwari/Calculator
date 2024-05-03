@@ -41,6 +41,7 @@ button {
   width: 100px;
   height: 50px;
   transition: transform 0.2s ease;
+  font-size: 20px;
 }
 
 button:hover {
@@ -64,6 +65,7 @@ input {
   text-align: end;
   outline: 1px solid lightgoldenrodyellow;
   animation: inputAnimation 0.5s ease;
+  font-weight: 700;
 }
 
 @keyframes inputAnimation {
