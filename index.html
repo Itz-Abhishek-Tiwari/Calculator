@@ -3,63 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
-    <link href="css/style.css" rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
+    <title>Simple JavaScript Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="main">
+    <header>
+      <h1>Simple JavaScript Calculator 🧮</h1>
+    </header>
+
+    <main>
       <div>
-        <input class="user-input" type="number" />
+        <input type="number" />
       </div>
-      <div class="button-section">
+      <div class="button">
         <div>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>/</button>
+          <button class="clear-all">❌</button>
+          <button>➖</button>
+          <button>➕</button>
         </div>
         <div>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>*</button>
+          <button>➗</button>
+          <button>✖️</button>
+          <button class="equal">🟰</button>
         </div>
         <div>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>-</button>
+          <button>7️⃣</button>
+          <button>8️⃣</button>
+          <button>9️⃣</button>
         </div>
         <div>
-          <button>0</button>
-          <button>.</button>
-          <button>+</button>
-          <button>+/-</button>
+          <button>4️⃣</button>
+          <button>5️⃣</button>
+          <button>6️⃣</button>
         </div>
         <div>
-          <button>AC</button>
-          <button>=</button>
+          <button>1️⃣</button>
+          <button>2️⃣</button>
+          <button>3️⃣</button>
         </div>
       </div>
-    </div>
-    <div>
-      <p>
-        Copyright © 2024 |
-        <a href="https://github.com/Itz-Abhishek-Tiwari/Calculator"
-          ><span> Itz-Abhishek-Tiwari</span></a
-        >
-      </p>
-    </div>
+      <div class="footer">
+        <h3>
+          Made with ❤️ by
+          <a href="https://github.com/Itz-Abhishek-Tiwari">Abhishek Tiwari</a>
+        </h3>
+      </div>
+    </main>
+    <footer class="footerFotter"></footer>
     <script src="script.js"></script>
   </body>
 </html>
